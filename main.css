@@ -4,4 +4,6 @@ body {
     padding: 12px;
 }
 
-
+body {
+    font-family: monospace;
+}
