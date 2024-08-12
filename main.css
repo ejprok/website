@@ -5,5 +5,25 @@ body {
 }
 
 body {
+    background-color: #ffffff;
+    color: #000000;
     font-family: monospace;
+}
+
+/* Dark Mode Styles */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: #ffffff;
+    }
+    header, footer {
+        background-color: #1f1f1f;
+    }
+    a {
+        color: #1e90ff; /* DodgerBlue for links in dark mode */
+    }
+    /* Dark mode visited link color */
+    a:visited {
+        color: #bb86fc; /* Light purple for visited links in dark mode */
+    }
 }
